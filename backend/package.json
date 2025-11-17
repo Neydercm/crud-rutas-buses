@@ -1,0 +1,29 @@
+{
+  "name": "bus-control-backend",
+  "version": "1.0.0",
+  "description": "Backend para control de rutas de buses",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "bus",
+    "control",
+    "mongodb",
+    "express"
+  ],
+  "author": "Estudiante",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "xml2js": "^0.6.2",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
